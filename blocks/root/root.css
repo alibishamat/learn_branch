@@ -1,17 +1,11 @@
 .root {
-   box-sizing: border-box;
-   width: 90%;
-   margin: 0 auto;
+  box-sizing: border-box;
+  width: 90%;
+  margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
-   .root {
-      width: 100%;
-   }
-}
-
-@media screen and (max-width: 320px) {
-   .root {
-      width: 100%;
-   }
+@media screen and (max-width: 1024px) {
+  .root {
+    width: 100%;
+  }
 }

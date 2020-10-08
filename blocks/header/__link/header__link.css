@@ -10,7 +10,7 @@
   letter-spacing: 0em;
   text-align: right;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .header__link:nth-of-type(1) {
@@ -22,10 +22,10 @@
 }
 
 @media screen and (max-width: 320px) {
-.header__link {
-  width: 22px;
-  height: 20px;
-  font-size: 18px;
-line-height: 20px;
-}
+  .header__link {
+    width: 22px;
+    height: 20px;
+    font-size: 18px;
+    line-height: 20px;
+  }
 }
