@@ -1,6 +1,6 @@
 .header__link {
-  height: 28px;
-  width: 30px;
+  min-height: 28px;
+  max-width: 30px;
   border-radius: nullpx;
   font-family: Inter;
   font-size: 24px;
@@ -11,20 +11,17 @@
   text-align: right;
   text-decoration: none;
   color: #ffffff;
+  font-family: Inter sans-serif Arial;
 }
 
 .header__link:nth-of-type(1) {
   padding-right: 18px;
 }
 
-.header__link:hover {
-  text-decoration: underline;
-}
-
 @media screen and (max-width: 320px) {
   .header__link {
-    width: 22px;
-    height: 20px;
+    max-width: 22px;
+    min-height: 20px;
     font-size: 18px;
     line-height: 20px;
   }

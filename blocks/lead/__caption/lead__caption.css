@@ -1,14 +1,11 @@
 .lead__caption {
   display: flex;
-  align-self: end;
-  width: 159px;
-  height: 14px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
+  align-self: flex-start;
+  max-width: 159px;
+  min-height: 14px;
   font-size: 10px;
   line-height: 14px;
-  /* identical to box height, or 140% */
+  /* identical to box min-height, or 140% */
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #ffffff;
@@ -16,15 +13,8 @@
   padding-top: 8px;
 }
 
-@media screen and (max-width: 768px) {
-  .lead__caption {
-    padding-left: 24px;
-  }
-}
-
 @media screen and (max-width: 320px) {
   .lead__caption {
     padding-left: 16px;
   }
 }
-
