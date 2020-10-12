@@ -19,6 +19,20 @@
   }
 }
 
+@media screen and (max-width: 586px) {
+  .place {
+    grid-template-columns: 586px;
+    padding-top: 64px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .place {
+    grid-template-columns: 450px;
+    padding-top: 64px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place {
     grid-template-columns: 320px;
