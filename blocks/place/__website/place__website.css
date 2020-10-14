@@ -1,7 +1,6 @@
 .place__website {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  min-height: 46px;
   align-self: end;
 }
 

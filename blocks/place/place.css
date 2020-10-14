@@ -19,16 +19,16 @@
   }
 }
 
-@media screen and (max-width: 586px) {
+@media screen and (max-width: 550px) {
   .place {
-    grid-template-columns: 586px;
+    grid-template-columns: 1fr;
     padding-top: 64px;
   }
 }
 
 @media screen and (max-width: 450px) {
   .place {
-    grid-template-columns: 450px;
+    grid-template-columns: 1fr;
     padding-top: 64px;
   }
 }
