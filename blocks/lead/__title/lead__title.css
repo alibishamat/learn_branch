@@ -1,6 +1,6 @@
 .lead__title {
   font-family: "Inter", Arial, sans-serif;
-  max-width: calc(100% - 148px * 2);
+  max-width: 720px;
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
@@ -8,6 +8,12 @@
   color: #ffffff;
   padding-bottom: 32px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .lead__title {
+    max-width: calc(100% - 148px * 2);
+  }
 }
 
 @media screen and (max-width: 1145px) {
